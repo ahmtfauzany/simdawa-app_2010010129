@@ -18,7 +18,7 @@ class Login extends CI_Controller
 - Tetapi jika status cek_login tidak bernilai benar
 - Tampilkan status pesan cek login dan kembalikan ke controller login
 - Tetapi jika button btn_login tidak diklik
-- Tampilkan halaman login
+- Tampilkan halaman logins
 */
         if (isset($_POST['btn_login'])) {
             $cek_login = $this->LoginModel->cek_login();
